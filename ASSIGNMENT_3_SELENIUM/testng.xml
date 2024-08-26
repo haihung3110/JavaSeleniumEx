@@ -1,0 +1,8 @@
+<suite name="API Automation Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="com.api.auto.testcase.TC_API_Login"/>
+            <class name="com.api.auto.testcase.TC_API_CreateWork"/>
+        </classes>
+    </test>
+</suite>
