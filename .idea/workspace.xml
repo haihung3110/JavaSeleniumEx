@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f29a53f-e243-47d4-a88e-f14e7f3737a6" name="Changes" comment="Assignment 2 exercise">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaSeleniumEx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSeleniumEx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/ASSIGNMENT_2_SELENIUM.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/base/DriverInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/base/DriverInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/FrameworkException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/FrameworkException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/HeadlessNotSupportedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/HeadlessNotSupportedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/InvalidPathForExcelException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/InvalidPathForExcelException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/InvalidPathForExtentReportFileException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/InvalidPathForExtentReportFileException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/InvalidPathForFilesException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/InvalidPathForFilesException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/InvalidRemoteWebDriverURLException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/InvalidRemoteWebDriverURLException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/TargetNotValidException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/exceptions/TargetNotValidException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/helpers/ExcelHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/helpers/ExcelHelpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/pom/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/pom/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/testcase/TC_LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/testcase/TC_LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/utils/CaptureScreenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/utils/CaptureScreenshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/utils/LogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/utils/LogUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/utils/PropertiesFileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/classes/com/automation/utils/PropertiesFileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/target/test-classes/testing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_3_SELENIUM/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_3_SELENIUM/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_3_SELENIUM/ASSIGNMENT-3.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_3_SELENIUM/target/test-classes/com/api/auto/testcase/TC_API_CreateWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_3_SELENIUM/target/test-classes/com/api/auto/testcase/TC_API_CreateWork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT_3_SELENIUM/target/test-classes/com/api/auto/testcase/TC_API_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT_3_SELENIUM/target/test-classes/com/api/auto/testcase/TC_API_Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSeleniumEx.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSeleniumEx.userlibraries" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,35 +64,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.ASSIGNMENT-3 [clean,test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaSelenium [clean,test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaSelenium [clean,tét].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaSelenium [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.D:/DesktopFile/JavaSeleniumEx/ASSIGNMENT_3_SELENIUM/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.D:/DesktopFile/JavaSeleniumEx/JavaSelenium/src/test/java/testing.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.D:/DesktopFile/JavaSeleniumEx/JavaSelenium/src/test/resources/testing.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC_API_CreateWork.TC01_Validate201Created.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.TC_API_CreateWork.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC_API_Login.TC01_Validate200Ok.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.TC_API_Login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC_LoginTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC_LoginTest.TC01_LoginFirstAccount.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.TC_LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.ASSIGNMENT-3 [clean,test].executor": "Run",
+    "Maven.JavaSelenium [clean,test].executor": "Run",
+    "Maven.JavaSelenium [clean,tét].executor": "Run",
+    "Maven.JavaSelenium [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.<default>.executor": "Run",
+    "TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml (1).executor": "Run",
+    "TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml.executor": "Run",
+    "TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testng.xml.executor": "Run",
+    "TestNG.D:/DesktopFile/JavaSeleniumEx/ASSIGNMENT_3_SELENIUM/testng.xml.executor": "Run",
+    "TestNG.D:/DesktopFile/JavaSeleniumEx/JavaSelenium/src/test/java/testing.xml.executor": "Run",
+    "TestNG.D:/DesktopFile/JavaSeleniumEx/JavaSelenium/src/test/resources/testing.xml.executor": "Run",
+    "TestNG.TC_API_CreateWork.TC01_Validate201Created.executor": "Debug",
+    "TestNG.TC_API_CreateWork.executor": "Run",
+    "TestNG.TC_API_Login.TC01_Validate200Ok.executor": "Debug",
+    "TestNG.TC_API_Login.executor": "Run",
+    "TestNG.TC_LoginTest (1).executor": "Run",
+    "TestNG.TC_LoginTest.TC01_LoginFirstAccount.executor": "Debug",
+    "TestNG.TC_LoginTest.executor": "Run",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DesktopFile\JavaSeleniumEx\JavaSelenium\src\main\java\com\automation" />
@@ -82,7 +115,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml (1)">
+  <component name="RunManager" selected="TestNG.TC_LoginTest">
     <configuration name="D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ASSIGNMENT_2_SELENIUM" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml" />
@@ -103,9 +136,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/DesktopFile/JavaSeleniumEx/ASSIGNMENT_3_SELENIUM/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ASSIGNMENT_3_SELENIUM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ASSIGNMENT_3_SELENIUM/testng.xml" />
+    <configuration name="D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ASSIGNMENT_2_SELENIUM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ASSIGNMENT_2_SELENIUM/src/test/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -113,16 +146,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_API_CreateWork" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ASSIGNMENT_3_SELENIUM" />
+    <configuration name="TC_LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ASSIGNMENT_2_SELENIUM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.api.auto.testcase.*" />
+          <option name="PATTERN" value="com.automation.testcase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.api.auto.testcase" />
-      <option name="MAIN_CLASS_NAME" value="com.api.auto.testcase.TC_API_CreateWork" />
+      <option name="PACKAGE_NAME" value="com.automation.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.testcase.TC_LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -130,17 +163,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_API_Login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ASSIGNMENT_3_SELENIUM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.api.auto.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.api.auto.testcase" />
-      <option name="MAIN_CLASS_NAME" value="com.api.auto.testcase.TC_API_Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ASSIGNMENT_2_SELENIUM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC_LoginTest" />
+        <item itemvalue="TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml (1)" />
         <item itemvalue="TestNG.D:/DesktopFile/JavaSeleniumAssignment/JavaSeleniumEx/ASSIGNMENT_2_SELENIUM/src/test/resources/testing.xml" />
-        <item itemvalue="TestNG.D:/DesktopFile/JavaSeleniumEx/ASSIGNMENT_3_SELENIUM/testng.xml" />
-        <item itemvalue="TestNG.TC_API_CreateWork" />
-        <item itemvalue="TestNG.TC_API_Login" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724958510765</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Assignment 2 exercise">
+      <option name="closed" value="true" />
+      <created>1724958689833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724958689833</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
