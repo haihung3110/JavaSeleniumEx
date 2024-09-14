@@ -1,6 +1,5 @@
 package demo;
 
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -10,36 +9,37 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import data.UserInfo;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class GetUserExample1Test {
+public class Example1Test {
     private Response response;
+    private UserInfo user;
     private ResponseBody resBody;
     private JsonPath bodyJson;
-    private int userId;
 
     @BeforeClass
     public void init() {
-        userId = 2; // Valid user ID
+        user = new UserInfo("Minh", "nam", 24, "Ky su");
         RestAssured.baseURI = "https://reqres.in";
         RestAssured.basePath = "/api/users";
 
         RequestSpecification req = given()
                 .contentType(ContentType.JSON)
                 .when()
-                .pathParam("userId", userId);
+                .body(user);
 
-        response = req.get("/{userId}");
+        response = req.post();
         resBody = response.getBody();
         bodyJson = resBody.jsonPath();
     }
 
     @Test
     public void T01_StatusCodeTest() {
-        assertEquals(200, response.getStatusCode(), "Status Check Failed!");
+        assertEquals(201, response.getStatusCode(), "Status Check Failed!");
     }
 
     @Test
@@ -48,29 +48,32 @@ public class GetUserExample1Test {
     }
 
     @Test
-    public void T03_EmailChecked() {
-        assertTrue(resBody.asString().contains("email"), "email field check Failed!");
+    public void T03_CreatedAtChecked() {
+        assertTrue(resBody.asString().contains("createdAt"), "createdAt field check Failed!");
     }
 
     @Test
-    public void T04_FirstNameChecked() {
-        assertTrue(resBody.asString().contains("first_name"), "first_name field check Failed!");
+    public void T04_verifyOnMatchingName() {
+        String resName = bodyJson.get("name");
+        assertEquals(user.getName(), resName, "Name is not matched!");
     }
 
     @Test
-    public void T05_LastNameChecked() {
-        assertTrue(resBody.asString().contains("last_name"), "last_name field check Failed!");
+    public void T05_verifyOnMatchingGender() {
+        String resGender = bodyJson.get("gender");
+        assertEquals(user.getGender(), resGender, "Gender is not matched!");
     }
 
     @Test
-    public void T06_AvatarChecked() {
-        assertTrue(resBody.asString().contains("avatar"), "avatar field check Failed!");
+    public void T06_verifyOnMatchingAge() {
+        int resAge = bodyJson.getInt("age");
+        assertEquals(user.getAge(), resAge, "Age is not matched!");
     }
 
     @Test
-    public void T07_verifyOnMatchingId() {
-        int id = bodyJson.getInt("data.id");
-        assertEquals(userId, id, "User ID is not matched!");
+    public void T07_verifyOnMatchingJob() {
+        String resJob = bodyJson.get("job");
+        assertEquals(user.getJob(), resJob, "Job is not matched!");
     }
 
     @AfterClass

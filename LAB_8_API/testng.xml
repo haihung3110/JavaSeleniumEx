@@ -3,12 +3,12 @@
 <suite name="APITestSuite">
     <test name="ValidGetTest">
         <classes>
-            <class name="demo.GetUserExample1Test" />
+            <class name="demo.Example1Test" />
         </classes>
     </test>
     <test name="InvalidGetTest">
         <classes>
-            <class name="demo.GetUserExample2Test" />
+            <class name="demo.Example2Test" />
         </classes>
     </test>
 </suite>

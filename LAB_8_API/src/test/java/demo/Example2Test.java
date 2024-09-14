@@ -9,29 +9,30 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import data.UserInfo;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class GetUserExample2Test {
+public class Example2Test {
     private Response response;
+    private UserInfo user;
     private ResponseBody resBody;
     private JsonPath bodyJson;
-    private int userId;
 
     @BeforeClass
     public void init() {
-        userId = 40; // Invalid user ID
+        user = new UserInfo(null, "nam", 24, "Ky su");
         RestAssured.baseURI = "https://reqres.in";
         RestAssured.basePath = "/api/users";
 
         RequestSpecification req = given()
                 .contentType(ContentType.JSON)
                 .when()
-                .pathParam("userId", userId);
+                .body(user);
 
-        response = req.get("/{userId}");
+        response = req.post();
         resBody = response.getBody();
         bodyJson = resBody.jsonPath();
     }
@@ -47,9 +48,10 @@ public class GetUserExample2Test {
     }
 
     @Test
-    public void T03_verifyMessageContent() {
-        String message = bodyJson.get("message");
-        assertEquals("User not found!", message, "Incorrect error message!");
+    public void T03_verifyOnMessageContainName() {
+        String resMessage = bodyJson.get("message");
+        if (resMessage == null) resMessage = "";
+        assertTrue(resMessage.contains("name"), "Message not contain invalid field!");
     }
 
     @AfterClass
