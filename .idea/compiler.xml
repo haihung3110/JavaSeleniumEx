@@ -10,6 +10,7 @@
         <module name="ASSIGNMENT_2_SELENIUM" />
         <module name="ASSIGNMENT_3_SELENIUM" />
         <module name="LAB_7_SELENIUM" />
+        <module name="LAB_8_API" />
       </profile>
     </annotationProcessing>
   </component>
